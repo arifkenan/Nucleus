@@ -6,16 +6,8 @@ This repository contains a minimal Android game prototype written in Kotlin usin
 
 To build the project, you need Android Studio or the Android command-line tools. After installing the required SDK packages, run:
 
-```bash
-gradle assembleDebug
-```
-
+ 
 This will compile the application. You can then install the generated APK on an emulator or device.
 
-If you encounter warnings about AndroidX, ensure that the project contains a `gradle.properties` file with the following lines:
-
-```properties
-android.useAndroidX=true
-android.enableJetifier=true
-```
-
+ 
+  main

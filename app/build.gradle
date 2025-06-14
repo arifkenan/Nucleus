@@ -5,12 +5,16 @@ plugins {
 
 android {
     namespace 'com.example.nucleus'
-    compileSdk 33
+ 
+    compileSdk 34
+ main
 
     defaultConfig {
         applicationId 'com.example.nucleus'
         minSdk 21
-        targetSdk 33
+ 
+        targetSdk 34
+  main
         versionCode 1
         versionName '1.0'
     }
